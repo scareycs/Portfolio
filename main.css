@@ -1,0 +1,16 @@
+.container-fluid{
+	background-color: blue;
+	color: white;
+	height: 100px;
+}
+.col-md-6{
+	background-color: deeppink;
+
+}
+main{
+	padding: 50px;
+}
+.splashScreen{
+	margin:50px;
+
+}
