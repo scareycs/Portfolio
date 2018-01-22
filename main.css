@@ -1,7 +1,51 @@
+body * {
+  box-sizing: border-box;
+}
+
 .container-fluid{
 	background-color: blue;
 	color: white;
 	height: 100px;
+}
+
+ul{
+	padding:0;
+	margin:0;
+	padding-top: 50px;
+    font-size: 20px;
+   }
+
+ul, li{
+	display: inline-block;
+}
+
+header h1{
+	
+	position: absolute;
+	left: 130px;
+}
+li{
+	padding-left: 50px;
+}
+
+nav{
+	position: absolute;
+	right: 130px;
+}
+
+
+.logo{
+	background-color: blue;
+	border: 3px solid white;
+	position: absolute;
+	left: 30px;
+	top:10px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.topElements{
+	
 }
 .col-md-6{
 	background-color: deeppink;
