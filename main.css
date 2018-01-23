@@ -8,10 +8,13 @@ body * {
 	height: 100px;
 }
 
+a{
+	color:white;
+}
+
 ul{
 	padding:0;
 	margin:0;
-	padding-top: 50px;
     font-size: 20px;
    }
 
@@ -25,11 +28,7 @@ header h1{
 	left: 130px;
 }
 li{
-	padding-left: 50px;
 }
-
-
-
 .logo{
 	background-color: blue;
 	border: 3px solid white;
@@ -40,9 +39,6 @@ li{
 	border-radius: 50%;
 }
 
-.topElements{
-	
-}
 .col-md-6{
 	background-color: deeppink;
 
@@ -54,3 +50,28 @@ main{
 	margin:50px;
 
 }
+
+.navbar-fixed-top{
+	top: 20px;
+	margin-right: 0;
+}
+.navbar-brand{
+	position: absolute;
+	left:124px;
+}
+.navbar-right{
+	margin-right: 0;
+}
+.navbar-toggle{
+
+	background-color: white;
+}
+
+.icon-bar{
+	background-color: black;
+}
+.navbar-nav > li > a:hover{
+	background-color: black;
+	color: green;
+}
+
