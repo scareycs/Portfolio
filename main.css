@@ -6,6 +6,9 @@ body * {
 	background-color: blue;
 	color: white;
 	height: 100px;
+	width: 100%;
+	position: fixed;
+	box-shadow: 2px;
 }
 
 a{
@@ -22,35 +25,25 @@ ul, li{
 	display: inline-block;
 }
 
-header h1{
-	
-	position: absolute;
-	left: 130px;
-}
-li{
-}
 .logo{
 	background-color: blue;
 	border: 3px solid white;
-	position: absolute;
+	position: fixed;
 	left: 30px;
 	top:10px;
 	height: 80px;
 	border-radius: 50%;
 }
 
-.col-md-6{
-	background-color: deeppink;
+section{
+	/*background-color: deeppink;
+	max-height: 400px;*/
+	margin: 5px;
 
 }
 main{
-	padding: 50px;
+	padding: 100px;
 }
-.splashScreen{
-	margin:50px;
-
-}
-
 .navbar-fixed-top{
 	top: 20px;
 	margin-right: 0;
@@ -73,5 +66,9 @@ main{
 .navbar-nav > li > a:hover{
 	background-color: black;
 	color: green;
+}
+section img{
+	border: 4px solid blue;
+	border-radius: 4px;
 }
 
