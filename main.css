@@ -3,6 +3,7 @@ body * {
 }
 
 .container-fluid{
+	z-index: 1;
 	background-color: blue;
 	color: white;
 	height: 100px;
@@ -42,7 +43,7 @@ section{
 
 }
 main{
-	padding: 100px;
+	padding: 140px;
 }
 .navbar-fixed-top{
 	top: 20px;
