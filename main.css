@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-
 }
 
 body{
@@ -16,39 +15,42 @@ main {
 }
 
 nav {
+  background: white;
   position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;
   color:black;
-  background: black;
-  height: 200px;
+  height: 180px;
   z-index: 2;
   text-align: center;
 }
 
 .logo {
+  background:#3C79CF;
+  color: white;
   margin:auto;
   margin-top: 10px;
   margin-bottom: 10px;
   padding:15px;
   height: 100px;
   width: 100px;
-  background: white;
 }
 
 nav ul{
-  background: lightgray;
-  position: relative;
+  font-size: 15px;
+  width:100%;
+  background: white;
+  position: absolute;
+  margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
-  padding-top:10px;
+  padding-top:20px;
   padding-left:0%;
   padding-right:0%;
-  padding-bottom:10px;
+  padding-bottom:0px;
   right: 0px;
-  margin-top: 20px;
   text-align: center;
 }
 
@@ -70,16 +72,17 @@ section:nth-child(2n) {
 
 @media only screen and (min-width: 960px) {
   nav ul{
-    background: lightgray;
-    width: 380px;
-    height: 18px;
+    width: 590px;
+    height: 70px;
+    font-size: 25px;
     position: fixed;
     right: 20px;
     margin-left: 50%;
     margin-right: 20px;
-    text-align: right;
+    text-align: center;
     margin-top: -80px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 0px;
   }
 
   nav ul li {
@@ -91,7 +94,7 @@ section:nth-child(2n) {
     padding:15px;
     height: 150px;
     width: 150px;
-    background: white;
+
   }
 
   main {
