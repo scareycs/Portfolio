@@ -21,7 +21,6 @@ nav {
   color:black;
   z-index: 2;
   text-align: center;
-
 }
 
 .logo {
@@ -35,7 +34,7 @@ nav {
   width: 100px;
 }
 
-nav ul{
+nav ul {
   font-size: 15px;
   width:100%;
   background: white;
@@ -64,7 +63,7 @@ section {
   min-height: 400px;
 }
 
-section p{
+section p {
   font-size: 20px;
 }
 
@@ -72,4 +71,15 @@ section:nth-child(2n+1) {
   background: gray;
 }
 
+.projWin {
+  height: 500px;
+  width: 500px;
+  border-radius: 9px;
+  box-shadow: 2px 2px 2px 1px;
+}
 
+.screenshot img {
+  height: 100%;
+  width: 100%;
+  border-radius: 9px;
+}
