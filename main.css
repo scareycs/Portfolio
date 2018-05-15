@@ -9,9 +9,7 @@ body{
 }
 
 main {
-  margin-top:180px;
-  padding-top: 100px; 
-  background: gray;
+  margin-top:80px; 
 }
 
 nav {
@@ -21,7 +19,6 @@ nav {
   left: 0px;
   right: 0px;
   color:black;
-  height: 180px;
   z-index: 2;
   text-align: center;
 }
@@ -58,7 +55,6 @@ nav ul li {
   height:100%;
   display: inline-block;
   margin: 0px;
-  padding: 2%;
 }
 section {
   padding-top: 40px;
@@ -66,8 +62,12 @@ section {
   min-height: 400px;
 }
 
-section:nth-child(2n) {
-  background: white;
+section p{
+  font-size: 20px;
+}
+
+section:nth-child(2n+1) {
+  background: gray;
 }
 
 @media only screen and (min-width: 960px) {
@@ -75,13 +75,10 @@ section:nth-child(2n) {
     width: 590px;
     height: 70px;
     font-size: 25px;
-    position: fixed;
-    right: 20px;
     margin-left: 50%;
     margin-right: 20px;
-    text-align: center;
-    margin-top: -80px;
-    padding-top: 40px;
+    text-align: right;
+    padding-top: 25px;
     padding-bottom: 0px;
   }
 
@@ -89,19 +86,21 @@ section:nth-child(2n) {
     padding: 0px;
   }
 
+  .nameTitle{
+    float:left;
+    margin:10px;
+    padding:15px;
+  }
+
   .logo {
     margin:10px;
     padding:15px;
     height: 150px;
     width: 150px;
-
   }
 
   main {
-    margin-top: 120px;
+    margin-top: 50px;
     padding-top: 50px; 
-  }
-  nav {
-    height: 180px;
   }
 }
