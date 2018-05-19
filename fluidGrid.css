@@ -1,8 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
- **/
 .row {
   max-width: 1000px;
   padding-left: 20px;
@@ -31,7 +29,6 @@
 .col-3, .col-4, .col-6, .col-12 {
   width: 100%;
 }
-
 
 /* Non-mobile, grid */
 @media only screen and (min-width: 640px) {
