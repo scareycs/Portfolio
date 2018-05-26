@@ -68,8 +68,10 @@ section:nth-child(2n+1) {
 }
 
 .projWin {
-  height: 500px;
-  width: 500px;
+  margin: auto;
+  margin-top: 25px;
+  height: 400px;
+  max-width: 550px;
   border-radius: 9px;
   box-shadow: 2px 2px 2px 1px;
 }
@@ -78,4 +80,10 @@ section:nth-child(2n+1) {
   height: 100%;
   width: 100%;
   border-radius: 9px;
+}
+
+.icons {
+  background: #3C79CF;
+  color: white;
+  font-size: 100px;
 }
