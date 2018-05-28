@@ -60,11 +60,11 @@
   nav ul{
     width: 590px;
     height: 70px;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 50%;
     margin-right: 20px;
     text-align: right;
-    padding-top: 25px;
+    padding-top: 53px;
     padding-bottom: 0px;
     box-shadow: none;
   }
@@ -73,17 +73,21 @@
     padding: 0px;
   }
 
-  .nameTitle{
-    float:left;
-    margin:10px;
-    padding:15px;
+  .nameTitle {
+    margin-left: 10px;
+    margin-top: 45px;
   }
 
-  .logo {
-    margin:10px;
-    padding:15px;
-    height: 150px;
-    width: 150px;
+  .nameTitle,
+  .logo img {
+    float:left;
+    padding:0px;
+  }
+
+  .logo img {
+    margin: 10px;
+    height: 80px;
+    width: 80px;
   }
 
   main {

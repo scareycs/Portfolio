@@ -1,4 +1,5 @@
 body{
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   padding:0px;
   margin: 0px;
@@ -6,6 +7,15 @@ body{
 
 main {
   margin-top:80px; 
+}
+
+a {
+  color: inherit; 
+  text-decoration: inherit;
+}
+
+h1 {
+  margin: 0px;
 }
 
 nav {
@@ -19,29 +29,32 @@ nav {
   text-align: center;
 }
 
-.logo {
-  background:#3C79CF;
-  color: white;
+footer {
+  background: #1B365C;
+  color: #7FA3D7;
+}
+
+.logo img {
   margin:auto;
   margin-top: 10px;
-  margin-bottom: 10px;
-  padding:15px;
-  height: 100px;
-  width: 100px;
+  height: 65px;
+  width: 65px;
 }
 
 nav ul {
-  font-size: 15px;
+  color: #757575;
+  font-size: 20px;
   width:100%;
   background: white;
   position: absolute;
-  margin-top: 0px;
+  margin-top: -3px;
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
+  padding-top: 10px;
   padding-left:0%;
   padding-right:0%;
-  padding-bottom:20px;
+  padding-bottom:10px;
   right: 0px;
   text-align: center;
   box-shadow: 0 5px 5px -5px #333;
@@ -52,20 +65,25 @@ nav ul li {
   display: inline-block;
   margin: 0px;
 }
+
+nav ul li:hover {
+  color: #3C79CF;
+}
+
 section {
   padding-top: 40px;
   padding-bottom: 20px;
   margin: 0px;
-  min-height: 400px;
+  /*min-height: 400px;*/
 }
 
 section p {
   font-size: 20px;
 }
 
-section:nth-child(2n+1) {
-  background: gray;
-}
+/*section:nth-child(2n+1) {
+  background: white;
+}*/
 
 .projWin {
   margin: auto;
@@ -82,8 +100,39 @@ section:nth-child(2n+1) {
   border-radius: 9px;
 }
 
-.icons {
-  background: #3C79CF;
+.nameTitle {
+  color: #1B365C;
+}
+
+.hero {
+  min-height: 400px;
+  background: url("background.png");
+  background-size: 100% 100%;
   color: white;
+}
+
+.about {
+  color: #3C79CF;
+}
+
+.projects {
+  background: #F5F6F7;
+}
+
+.projWin {
+  background: white;
+}
+
+.contact {
+  background: #3C79CF;
+  color: #1B365C;
+}
+
+.icons {
   font-size: 100px;
+}
+
+.fab:hover,
+.fas:hover {
+  color: white;
 }
