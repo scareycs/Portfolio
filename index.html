@@ -6,33 +6,42 @@
     <title>Shawna's Portfolio</title>
     <link href="main.css" rel="stylesheet" type="text/css" />
     <link href="fluidGrid.css" rel="stylesheet" type="text/css" />
+    <script 
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
   </head>
 
   <body>
+
     <nav role="navigation">
       <div class="logo"><img src="SPC Logo.png" alt="Shawna Carey's Logo"></div>
-      <h1 class="nameTitle">Shawna Patrice Carey</h1>
+      <a id="home" href="#"><h1 class="nameTitle">Shawna Patrice Carey</h1></a>
+
       <ul>
-        <li>Projects</li>
-        <li>About</li>
-        <li>Contact</li>
+        <a id="projects" href="#"><li>Projects</li></a>
+        <a id="about" href="#"><li>About</li></a>
+        <a id="contact" href="#"><li>Contact</li></a>
       </ul>
     </nav>
-    
+
+    <a name="home"/>
     <main role="main">
       <section class="hero">
         <p>Hi, my name is Shawna Carey.</p> 
         <p>I'm a front-end web developer skilled in HTML5, CSS3, and JavaScript with experience in IT operations.</p>
       </section>
+
+      <a name="projects"/>
       <section class="projects">
         <div class="secTitle">Projects</div>
         <div class="row">
 
           <div class="col-4">
             <div class="projWin">
-              <div class="screenshot"></div>
+              <div class="screenshot"><img src="ArtEscapeCapture.png" alt="Art Escape Project"></div>
               <div class="projInfo">
                 <div class="projTitle">This Is My Project</div>
                 <p>Live<p>
@@ -65,6 +74,8 @@
 
         </div>
       </section>
+
+      <a name="about"/>
       <section class="about">
         <!--<div class="secTitle">About</div>-->
           <p>I'm a web developer who thrives on analytical and innovative solutions. I received my bachelor’s degree in Systems and Computer Science from Howard University. 
@@ -74,12 +85,13 @@
           <p>I'm very passionate about UI design and color schemes, and when I'm not coding I am creating colorful photo-realistic paintings in acrylic on canvas.</p>
       </section>
 
+      <a name="contact"/>
       <section class="contact">
         <!--<div class="secTitle">Contact</div>-->
         <div class="icons">
           <a href="https://www.linkedin.com/in/shawna-carey-a3510134/"><i class="fab fa-linkedin"></i></a>
-          <i class="fab fa-github-square"></i>
-          <i class="fas fa-envelope-square"></i>
+          <a href="https://github.com/scareycs"><i class="fab fa-github-square"></i></a>
+          <a href="mailto:scareycs@gmail.com"><i class="fas fa-envelope-square"></i></a>
         </div>
       </section>
       <footer role="contentinfo">&copy; 2017 Shawna P. Carey</footer>

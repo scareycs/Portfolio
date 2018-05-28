@@ -6,7 +6,7 @@ body{
 }
 
 main {
-  margin-top:80px; 
+  margin-top:140px; 
 }
 
 a {
@@ -91,7 +91,7 @@ section p {
   height: 400px;
   max-width: 550px;
   border-radius: 9px;
-  box-shadow: 2px 2px 2px 1px;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.08);
 }
 
 .screenshot img {
@@ -116,7 +116,7 @@ section p {
 }
 
 .projects {
-  background: #F5F6F7;
+  background: #F1F1F1;
 }
 
 .projWin {
