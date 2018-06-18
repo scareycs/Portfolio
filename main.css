@@ -81,6 +81,14 @@ section p {
   font-size: 20px;
 }
 
+.introHeader {
+  font-size: 25px;
+}
+
+.intro {
+
+}
+
 /*section:nth-child(2n+1) {
   background: white;
 }*/
@@ -94,7 +102,7 @@ section p {
   box-shadow: 0 2px 3px rgba(0,0,0,0.08);
 }
 
-.screenshot img {
+.screenshot {
   height: 100%;
   width: 100%;
   border-radius: 9px;
@@ -135,4 +143,11 @@ section p {
 .fab:hover,
 .fas:hover {
   color: white;
+}
+
+
+#screen1 {
+  background: url(ArtEscapeCapture.png);
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
 }
