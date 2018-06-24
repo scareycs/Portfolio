@@ -3,6 +3,7 @@ body{
   text-align: center;
   padding:0px;
   margin: 0px;
+  color: #444444;
 }
 
 main {
@@ -24,7 +25,6 @@ nav {
   top: 0px;
   left: 0px;
   right: 0px;
-  color:black;
   z-index: 2;
   text-align: center;
 }
@@ -96,7 +96,7 @@ section p {
 .projWin {
   margin: auto;
   margin-top: 25px;
-  height: 400px;
+  height: 460px;
   max-width: 550px;
   border-radius: 9px;
   box-shadow: 0 2px 3px rgba(0,0,0,0.08);
@@ -117,6 +117,12 @@ section p {
   background: url("background.png");
   background-size: 100% 100%;
   color: white;
+}
+
+#profilePic {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
 }
 
 .about {
@@ -145,9 +151,30 @@ section p {
   color: white;
 }
 
+.projIcon {
+  width:100%;
+  height:80%;
+}
 
-#screen1 {
-  background: url(ArtEscapeCapture.png);
-  background-size: 100% 80%;
-  background-repeat: no-repeat;
+.projInfo p,
+.liveLink,
+.codeLink {
+  margin: 0px;
+}
+
+.projTitle,
+.techUsed {
+  text-align: left;
+}
+
+.liveLink {
+  margin-right:25%;
+}
+
+.codeLink {
+  margin-left:25%;
+}
+
+.links {
+  margin:10px;
 }
