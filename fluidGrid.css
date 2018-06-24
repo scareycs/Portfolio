@@ -69,12 +69,9 @@
     padding-bottom: 43px;
   }
 
-
   nav ul li {
     padding-left: 20px;
   }
-
-
 
   .nameTitle {
     margin-left: 10px;
@@ -95,9 +92,9 @@
   }
 
   main {
- 
     margin-top: 70px; 
   }
+  
   .hero{
     height: 700px;
   }
