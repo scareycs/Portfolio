@@ -153,22 +153,27 @@ section p {
 
 .projIcon {
   width:100%;
-  height:80%;
+  height:70%;
 }
 
-.projInfo p,
 .liveLink,
 .codeLink {
   margin: 0px;
 }
 
 .projTitle,
-.techUsed {
+.textDescript {
   text-align: left;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-right: 15px;
 }
 
-.liveLink,
-.projTitle {
+.textDescript {
+  margin-left: 20px;
+}
+
+.liveLink {
   margin-right:25%;
 }
 
@@ -178,4 +183,17 @@ section p {
 
 .links {
   margin:10px;
+}
+
+.projTitle{
+  margin-left:0px;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.techUsed {
+  margin-left:45px;
+}
+.techUsed i{
+  margin-right:10px;
 }
