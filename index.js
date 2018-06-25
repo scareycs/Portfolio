@@ -1,4 +1,3 @@
-
 function scrollToAnchor(section){
     var aTag = $("a[name='"+ section +"']");
     $('html,body').animate({scrollTop: aTag.offset().top},'medium');

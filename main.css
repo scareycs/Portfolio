@@ -167,7 +167,8 @@ section p {
   text-align: left;
 }
 
-.liveLink {
+.liveLink,
+.projTitle {
   margin-right:25%;
 }
 

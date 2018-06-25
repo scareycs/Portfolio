@@ -53,11 +53,11 @@
   }
 
 
-  nav{
+  nav {
     box-shadow: 0 5px 5px -5px #333;
   }
 
-  nav ul{
+  nav ul {
     width: 590px;
     height: 70px;
     font-size: 20px;
@@ -95,7 +95,7 @@
     margin-top: 70px; 
   }
   
-  .hero{
+  .hero {
     height: 700px;
   }
 }
