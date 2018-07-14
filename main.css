@@ -42,8 +42,9 @@ footer {
 }
 
 nav ul {
-  color: #757575;
+  color: #1B365C;
   font-size: 20px;
+  font-weight: bold;
   width:100%;
   background: white;
   position: absolute;
@@ -77,16 +78,10 @@ section {
   /*min-height: 400px;*/
 }
 
-section p {
-  font-size: 20px;
-}
-
+section p,
+.secTitle
 .introHeader {
-  font-size: 25px;
-}
-
-.intro {
-
+  font-size: 20px;
 }
 
 /*section:nth-child(2n+1) {
