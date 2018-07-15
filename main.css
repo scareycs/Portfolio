@@ -1,5 +1,5 @@
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', serif;
   text-align: center;
   padding:0px;
   margin: 0px;
@@ -20,7 +20,8 @@ h1 {
 }
 
 nav {
-  background: white;
+  font-family: 'Raleway', sans-serif;
+  background: #F5F5F5;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -42,11 +43,11 @@ footer {
 }
 
 nav ul {
-  color: #1B365C;
+  color: #0E1117;
   font-size: 20px;
-  font-weight: bold;
+  /*font-weight: bold;*/
   width:100%;
-  background: white;
+  background: #F5F5F5;
   position: absolute;
   margin-top: -3px;
   margin-left: 0px;
@@ -62,17 +63,29 @@ nav ul {
 }
 
 nav ul li {
+  padding: 5px;
   height:100%;
   display: inline-block;
   margin: 0px;
 }
 
+.secTitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #1B365C;
+  font-weight: bold;
+  border-bottom: 3px solid #7FA3D7;
+  padding-bottom: 5px;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+
 nav ul li:hover {
-  color: #3C79CF;
+    color: #CF9D3C;
 }
 
 section {
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 20px;
   margin: 0px;
   /*min-height: 400px;*/
@@ -105,13 +118,18 @@ section p,
 
 .nameTitle {
   color: #1B365C;
+  margin-bottom: 4px;
 }
 
 .hero {
+  padding-top: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
   min-height: 400px;
   background: url("background.png");
   background-size: 100% 100%;
-  color: white;
+  font-weight: 300;
+  color: #E3EFFF;
 }
 
 #profilePic {
@@ -121,7 +139,9 @@ section p,
 }
 
 .about {
-  color: #3C79CF;
+ color: #444444;
+ padding: 15px;
+ background: #F5F5F5;
 }
 
 .projects {
@@ -129,21 +149,24 @@ section p,
 }
 
 .projWin {
-  background: white;
+  background: #F5F5F5;
 }
 
 .contact {
   background: #3C79CF;
   color: #1B365C;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .icons {
-  font-size: 100px;
+  margin-top: 10px;
+  font-size: 80px;
 }
 
 .fab:hover,
 .fas:hover {
-  color: white;
+  color: #F5F5F5;
 }
 
 .projIcon {
@@ -191,4 +214,9 @@ section p,
 }
 .techUsed i{
   margin-right:10px;
+}
+
+#contactMe {
+  color: #F1F1F1;
+  font-weight: 300;
 }
