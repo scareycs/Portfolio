@@ -18,3 +18,16 @@ $("#about").click(function(){
 $("#contact").click(function(){
 	scrollToAnchor('contact');
 });
+
+
+$(window).bind('scroll', function() {
+	var navHeight = $(window).height() - 80;
+	 if ($(window).scrollTop() > navHeight) {
+		$('nav').addClass('fixedTop');
+		$('nav').removeClass('fixedBottom');
+	 }
+	 else {
+	 	$('nav').addClass('fixedBottom');
+		$('nav').removeClass('fixedTop');
+	 }
+});
