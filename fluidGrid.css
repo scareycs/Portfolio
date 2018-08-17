@@ -52,6 +52,11 @@
     width: 100%;
   }
 
+  section p{
+  margin-left: 100px;
+  margin-right: 100px;
+  }
+
 
   nav {
     box-shadow: 0 5px 5px -5px #333;
