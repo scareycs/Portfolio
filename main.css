@@ -95,8 +95,7 @@ nav ul li {
 
 .nameTitle,
 .logo img {
-    position: float;
-    margin: auto;
+    float:left;
 }
 
 nav ul li:hover {
@@ -143,7 +142,6 @@ section p,
 
 .nameTitle {
   color: #1B365C;
-  padding-top: 20px;
   /*margin-bottom: 4px;*/
   font-size: 20px;
 }
