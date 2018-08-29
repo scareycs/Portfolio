@@ -53,9 +53,9 @@
   }
 
   section p {
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
   }
 
   .secTitle {
@@ -118,11 +118,30 @@
   }
   
   .hero {
+    padding-top: 1px;
     height: 100vh;
   }
 
+  .heroText {
+    margin: 150px;
+    padding-bottom: 0px;
+  }
+
   .projWin {
+    height: 530px;
     margin-right: 5%;
     margin-left: 5%;
+  }
+  section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .projIcon {
+    height:70%;
+  }
+
+  .links {
+    margin-bottom: 0px;
   }
 }
