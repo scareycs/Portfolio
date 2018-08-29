@@ -116,8 +116,7 @@ section {
   /*min-height: 400px;*/
 }
 
-section p,
-.secTitle {
+section p {
   font-size: 20px;
 }
 
