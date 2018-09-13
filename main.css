@@ -27,6 +27,10 @@ nav {
   right: 0px;
   z-index: 1;
   text-align: center;
+  box-shadow: 0 5px 5px -5px #333;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 2%;
 }
 
 footer {
@@ -47,20 +51,21 @@ footer {
 }
 
 nav ul {
+  margin: 0px;
   color: #0E1117;
   font-size: 20px;
-  /*font-weight: bold;*/
+  display: inline-block;
+  /*font-weight: bold;
   width:100%;
   background: #F5F5F5;
-  /*position: absolute;*/
+  position: absolute;
   margin: 0px;
   padding-top: 2.5px;
   padding-left:0%;
   padding-right:0%;
   padding-bottom:2.5px;
   right: 0px;
-  /*text-align: center;*/
-  box-shadow: 0 5px 5px -5px #333;
+  text-align: center;*/
 }
 
 nav ul li {
@@ -162,9 +167,11 @@ section p {
 
 .intro {
   font-size: 25px;
+  font-weight: 300;
 }
 
 .introHeader {
+  margin: 0px;
   font-size: 50px;
 }
 
@@ -178,9 +185,10 @@ section p {
 }
 
 .heroText {
-  padding-bottom: 50px;
-  margin: auto;
-  border: 7px solid #ffffff;
+  padding: 5px;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  border: 3px solid #ffffff;
   background: rgba(14,17,23, 0.3);
 }
 
