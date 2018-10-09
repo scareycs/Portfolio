@@ -42,14 +42,15 @@
     padding-right: 2%;
     display: inherit;
   }
-    .fixedBottom {
+
+  .fixedBottom {
     position: absolute; 
     bottom: 0;  
     height: 80px;
     z-index: 1;
   }
 
-   .fixedTop {
+  .fixedTop {
     position: fixed; 
     top: 0; 
     height: 80px; 
@@ -127,6 +128,7 @@
     margin-right: 5%;
     margin-left: 5%;
   }
+
   section {
     padding-top: 60px;
     padding-bottom: 60px;
