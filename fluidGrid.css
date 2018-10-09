@@ -32,10 +32,10 @@
 
 /* Non-mobile, grid */
 
-@media only screen and (min-width: 535px) {
+@media only screen and (min-width: 600px) {
 
   nav ul {
-    margin-top: 15px;
+    margin-top: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: right;
@@ -59,9 +59,12 @@
 
   .logo img {
     margin-left: 35px;
-    margin-bottom: 10px;
     height: 60px;
     width: 60px;
+  }
+   .nameTitle {
+    margin-left: 10px;
+    margin-top: 15px;
   }
 
 }
@@ -101,10 +104,7 @@
     padding: 5px;
   }
 
-  .nameTitle {
-    margin-left: 10px;
-    margin-top: 28px;
-  }
+
 
   .nameTitle,
   .logo img {
