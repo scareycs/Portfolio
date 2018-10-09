@@ -115,7 +115,7 @@ nav ul li:hover {
 
 section {
   padding-top: 30px;
-  padding-bottom: 30px;
+  /*padding-bottom: 30px;*/
   margin: 0px;
   /*min-height: 400px;*/
 }
