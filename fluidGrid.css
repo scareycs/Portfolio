@@ -62,7 +62,9 @@
     height: 60px;
     width: 60px;
   }
-   .nameTitle {
+  
+  .nameTitle {
+    float: left;
     margin-left: 10px;
     margin-top: 15px;
   }

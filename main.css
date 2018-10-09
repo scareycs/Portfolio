@@ -98,9 +98,12 @@ nav ul li {
   z-index: 1;
 }
 
-.nameTitle,
 .logo img {
     float:left;
+}
+
+.nameTitle {
+  float: inherit;
 }
 
 nav ul li:hover {
