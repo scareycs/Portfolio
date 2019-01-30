@@ -37,7 +37,6 @@
   nav ul {
     margin-top: 5px;
     padding-top: 10px;
-    padding-bottom: 10px;
     text-align: right;
     padding-right: 2%;
     display: inherit;
@@ -126,7 +125,7 @@
   }
 
   .projWin {
-    height: 530px;
+    height: auto;
     margin-right: 5%;
     margin-left: 5%;
   }
