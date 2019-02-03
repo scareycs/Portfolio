@@ -50,6 +50,7 @@ footer {
 }
 
 nav ul {
+  padding-left: 0px;
   margin: 0px;
   color: #0E1117;
   font-size: 20px;
