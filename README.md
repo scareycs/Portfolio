@@ -1,6 +1,6 @@
 <h1>Portfolio</h1>
 
-This is my portfolio for my coding projects.
+This is my portfolio for my coding projects. You can take a look at my most recently completed projects here.
 
 <h2>Features</h2>
 
