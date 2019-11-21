@@ -108,14 +108,24 @@ nav ul li {
 }
 
 nav ul li:hover {
-    color: #3C79CF;
     border-bottom: 4px solid #3C79CF;
-    -webkit-transition: border-color 1s ease;
-    -moz-transition: border-color 1s ease;
-    -o-transition: border-color 1s ease;
-    -ms-transition: border-color 1s ease;
-    transition: border-color 1s ease; 
+    -webkit-transition: border-bottom .5s ease;
+    -moz-transition: border-bottom .5s ease;
+    -o-transition: border-bottom .5s ease;
+    -ms-transition: border-bottom .5s ease;
+    transition: border-bottom .5s ease; 
+
 }
+
+nav ul li:after {
+  width: 0%;
+  transition: .05s;
+}
+
+nav ul li:hover:after {
+  width: 100%;
+}
+
 
 section {
   padding-top: 30px;
@@ -259,7 +269,7 @@ section p {
 }
 
 .description {
-  min-height: 115px;
+  min-height: 140px;
 }
 
 .projTitle,
