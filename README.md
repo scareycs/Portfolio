@@ -4,7 +4,7 @@ This is my portfolio for my coding projects. You can take a look at my most rece
 
 <h2>Features</h2>
 
-- Be able to view screenshots of three of my projects
+- Be able to view screenshots of my projects
 - Be able to view repositories for each project displayed
 - Be able to view a live demo of each project
 - Display an about section of me as a developer
