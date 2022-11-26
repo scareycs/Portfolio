@@ -134,9 +134,9 @@ section {
   /*min-height: 400px;*/
 }
 
-section p {
+/*section p {
   font-size: 20px;
-}
+}*/
 
 /*section:nth-child(2n+1) {
   background: white;
@@ -187,12 +187,14 @@ section p {
 }
 
 #profilePic {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  height: 120px;
-  width: 120px;
-  border: 2px solid #1B365C;
+  width: 45vh;
   border-radius: 50%;
+}
+
+.bioContainer{
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 16px;
 }
 
 .heroText {
@@ -204,8 +206,6 @@ section p {
 }
 
 .about {
-  padding-right: 10px;
-  padding-left: 10px;
   color: #444444;
   background: #ffffff;
 }
